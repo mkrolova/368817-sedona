@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Maria Krylova](https://up.htmlacademy.ru/htmlcss/17/user/368817).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Кравченко](https://htmlacademy.ru/profile/id13921).
 
 ---
 
