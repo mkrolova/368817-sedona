@@ -5,8 +5,8 @@
   <title>HTML Academy: Седона</title>
 </head>
 <body>
-  <header class="page-header">
-    <div class="container">
+  <div class="container">
+    <header class="page-header">    
       <nav class="main-nav">
         <ul>
           <li class="main-nav-item">
@@ -26,109 +26,123 @@
           </li>  
         </ul>        
       </nav>
-    </div>
-  </header>
-  <main class="container">
-    <div class="main-picture">
-      <img src="#" width="" height="" alt="Sedona">
-      <img src="#" width="" height="">
-    </div>
-    <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
-    <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-    <section class="benefit-with-picture">
-      <ul>
-        <li class="benefit-block">
-          <b>Настоящий городок</b>
+    </header>
+
+    <main>
+      <div class="intro">
+        <img src="#" width="" height="" alt="Sedona">
+      </div>
+      <h1 class="main-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+      <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+
+      <section class="benefits">
+        <div class="benefits-text ">
+          <h2 class="benefits-title">Настоящий городок</h2>
+          <span>&ndash;1&ndash;</span>
           <p>Седона — не аттракциондля туристов, там течет своя жизнь</p>
-        </li>
-        <li class="benefit-picture">
+        </div>
+        <div class="benefits-image">
           <img src="#" width="" height="" alt="Город">
-        </li>
-      </ul>
-    </section>
-    <section class="recommendations">
-      <ul>
-        <li class="recommendation-block">
-          <b>Жильё</b>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="feautures-item">
+          <h2 class="feautures-title feautures-title-house">Жильё</h2>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-        </li>
-        <li class="recommendation-block">
-          <b>Еда</b>
+        </div>
+        <div class="feautures-item">
+          <h2 class="feautures-title feautures-title-food">Еда</h2>
           <p>Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
-        </li>
-        <li class="recommendation-block">
-          <b>Сувениры</b>
+        </div>
+        <div class="feautures-item">
+          <h2 class="feautures-title feautures-title-souvenirs">Сувениры</h2>
           <p>Не только китайского, но и местного производства!</p>
-        </li>
-      </ul>     
-    </section>
-    <section class="benefit-with-picture">
-      <ul>
-        <li class="benefit-picture">
+        </div>
+      </section>
+
+      <section class="benefits">
+        <div class="benefits-image">
           <img src="#" width="" height="" alt="Мост дьявола">
-        </li>
-        <li class="benefit-block">
-          <b>Там есть Мост дьявола</b>
+        </div>
+        <div class="benefits-text ">
+          <h2 class="benefits-title">Там есть Мост дьявола</h2>
+          <span>&ndash;2&ndash;</span>
           <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-        </li>
-      </ul>
-    </section>
-    <section class="benefits">
-      <ul>
-        <li class="benefit-block">
-          <b>Небольшая площадь</b>
+        </div>
+      </section>
+
+      <section class="benefits benefits-gray-bg">
+        <div class="benefits-text ">
+          <h2 class="benefits-title">Небольшая площадь</h2>
+          <span>&ndash;3&ndash;</span>
           <p>Все достопримечательности находятся очень близко</p>
-        </li>
-        <li class="benefit-block">
-          <b>Красива дорога</b>
+        </div>
+        <div class="benefits-text ">
+          <h2 class="benefits-title">Красивая дорога</h2>
+          <span>&ndash;4&ndash;</span>
           <p>Ехать в седону из Лас-Вегаса совсем не скучно!</p>
-        </li>
-        <li class="benefit-block">
-          <b>Мало туристов</b>
-          <p>Большинство едет в гранд каньон и толпится там</p>
-        </li>
-      </ul>     
-    </section>
-    <section>
-      <h2 class="subtitle">Заинтересовались?</h2>
-      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-      <form class="search" method="get" action="/echo">
-        <button class="hotel-search" type="button">Поиск гостиницы в Седоне</button>
-        <label for="arrival-date">Дата заезда:</label>
-        <input type="date" name="arrival-date" id="arrival-date">
-        <label for="departure-date">Дата выезда:</label>
-        <input type="date" name="departure-date" id="departure-date">
-        <div class="person">
-          Взрослые:
-          <div class="btn-minus"></div>
-          <div class="number"></div>
-          <div class="btn-plus"></div>
         </div>
-        <div class="person">
-          Дети:
-          <div class="btn-minus"></div>
-          <div class="number"></div>
-          <div class="btn-plus"></div>
+        <div class="benefits-text ">
+          <h2 class="benefits-title">Мало туристов</h2>
+          <span>&ndash;5&ndash;</span>
+          <p>Большинство едет в гранд каньон и толпится там<</p>
         </div>
+      </section>
+
+      <div class="offer">
+        <b class="offer-title">Заинтересовались?</b>
+        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <button class="hotels-in-sedona" type="button">Поиск гостиницы в Седоне</button>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <div class="map"></div>
+      <form class="hotel-search" method="get" action="/echo">
+        <div class="hotel-search-row">
+          <label for="arrival-date">Дата заезда:</label>
+          <div class="hotel-search-field">
+            <input type="date" name="arrival-date" id="arrival-date" value="24 Апреля 2017">
+            <button class="icon-calendar"></button>
+          </div>        
+        </div>
+        <div class="hotel-search-row">
+          <label for="departure-date">Дата выезда:</label>
+          <div class="hotel-search-field">
+            <input type="date" name="departure-date" id="departure-date" value="4 Июля 2017">
+            <button class="icon-calendar"></button>
+          </div>        
+        </div>
+        <div class="hotel-search-row">
+          <div class="hotel-search-number">
+            <label for="adults">Взрослые:</label>
+            <button class="icon-minus"></button>
+            <input type="number" name="adults" id="adults">
+            <button class="icon-plus"></button>
+          </div>
+          <div class="hotel-search-number">
+            <label for="kids">Дети:</label>
+            <button class="icon-minus"></button>
+            <input type="number" name="kids" id="kids">
+            <button class="icon-plus"></button>
+          </div>
+        </div>        
         <button class="btn" type="submit">Найти</button>
       </form>
-    </section>
-    <section class="map">
-      <img src="#" width="" height="" alt="Карта">
-    </section>
-  </main>
-  <footer class="page-footer">
-    <div class="container">
-      <section class="footer-left">#visitsedona</section>
-      <section class="footer-middle">
-        <a class="social-btn social-btn-twit" href="#">Twitter</a>
-        <a class="social-btn social-btn-fb" href="#">Facebook</a>
-        <a class="social-btn social-btn-yt" href="#">YouTube</a>
-      </section>
-      <section class="footer-right">
-       <a href="#">Website by <img src="https://htmlacademy.ru/intensive/htmlcss" alt="HTML Academy"></a>
-     </section>
-   </div>
- </footer>
+
+      <div class="index-footer">
+        <div class="footer-hashtag">#visitsedona</div>
+        <div class="footer-social">
+          <a class="social-btn social-btn-twit" href="#">Twitter</a>
+          <a class="social-btn social-btn-fb" href="#">Facebook</a>
+          <a class="social-btn social-btn-yt" href="#">YouTube</a>
+        </div>
+        <div class="footer-copyright">
+         <a href="#">Website by <img src="https://htmlacademy.ru/intensive/htmlcss" alt="HTML Academy"></a>
+       </div>
+     </div>     
+   </footer>
+ </div>
 </body>
 </html>
