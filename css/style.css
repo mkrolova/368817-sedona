@@ -1,0 +1,21 @@
+body {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: normal;
+  font-family: "PTSans Regular";
+}
+
+.main-title {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.benefits-title {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
