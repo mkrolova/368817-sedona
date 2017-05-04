@@ -1,9 +1,12 @@
 body {
+  font-family: "PTSans", Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #000000;
-  font-weight: normal;
-  font-family: "PTSans";
+  font-weight: normal;  
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
 }
 
 .main-title {
@@ -19,3 +22,145 @@ body {
   color: #ffffff;
 }
 
+.container {
+  width: 1200px;
+}
+.main-nav {
+  font-size: 0px;
+}
+
+.main-nav-item {
+  font-size: 14px;
+  line-height: 26px;
+  width: 250px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.feautures-item {
+  float: left;
+  width: 400px;
+  height: 330px;
+}
+
+.benefits-text {
+  float: left;
+  width: 400px;
+  height: 255px;
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+
+.benefits-image{
+  float: left;
+  width: 800px;
+  height: 255px;
+}
+
+.benefits-gray-bg .benefits-text{
+  color: #000000;
+  float: left;
+  width: 400px;
+  height: 255px;
+  background-color: #eeeeee;
+}
+
+.benefits-gray-bg .benefits-title{
+  color: #000000;
+}
+
+
+
+.index-footer {
+  height: 120px;
+}
+
+.footer-hashtag {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  width: 400px;
+  float: left;
+}
+
+.footer-social {
+  width: 400px;
+  float: left;
+}
+
+.footer-copyright {
+  width: 400px;
+  float: left;
+}
+
+
+/*.filter-group {
+  float: left;
+  width: 300px;
+}
+
+.filter-cost {
+  float: left;
+  width: 600px;
+}*/
+
+.sort-by {
+  font-size: 0px;
+}
+
+li {
+  font-size: 12px;
+  line-height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+.hotel-item {
+  height: 153px;
+}
+
+.hotel-image {
+  float: left;
+  width: 135px;
+  padding-left: 75px;
+}
+
+.hotel-info {
+  float: left;
+  width: 360px;
+  padding-left: 30px;
+
+}
+
+.hotel-rating {
+  float: right;
+  width: 120px;
+  padding-right: 70px;
+}
+
+.hotel-info-part {
+  float: left;
+  margin-right: 6px;
+}
+
+.hotel-info-link {
+  width: 110px;
+  height: 27px;
+  background-color: #81b3d2;
+  color:#ffffff;
+}
+
+.hotel-info-link .link-dark {
+  width: 173px;
+  height: 27px; 
+  background-color: #766357;
+  color: #ffffff;
+}

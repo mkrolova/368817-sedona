@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <link href="style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
 </head>
 <body>
   <div class="container">
-    <header class="page-header">
-     <a class="logo" href="index.html">
-      <img src="img/logo.png" width="138" height="70" alt="Главная" >
-    </a>
-    <nav class="main-nav">
-      <ul>
-        <li class="main-nav-item">
-          <a href="#" class="main-nav-link">Информация</a>
-        </li>
-        <li class="main-nav-item">
-          <a href="#" class="main-nav-link">Фото и видео</a>
-        </li>          
-        <li class="main-nav-item">
-          <a href="#" class="main-nav-link">Карта штата</a>
-        </li>
-        <li class="main-nav-item">
-          <a href="#" class="main-nav-link">Гостиницы</a>
-        </li>  
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <form class="filter" method="get" action="/echo">
+    <header class="page-header">
+      <a class="logo" href="index.html">
+      <img src="img/logo.png" width="138" height="70" alt="Главная" >
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li class="main-nav-item">
+          <a href="#" class="main-nav-link">Информация</a>
+          </li>
+          <li class="main-nav-item">
+          <a href="#" class="main-nav-link">Фото и видео</a>
+          </li>          
+          <li class="main-nav-item">
+          <a href="#" class="main-nav-link">Карта штата</a>
+          </li>
+          <li class="main-nav-item">
+          <a href="#" class="main-nav-link">Гостиницы</a>
+          </li>  
+       </ul>
+      </nav>
+    </header>
+
+    <main>
+
+    <form class="filter clearfix" method="get" action="/echo">
       <div class="filter-group">
         <b class="filter-title">Инфраструктура:</b>
         <input type="checkbox" name="pool" id="pool" checked>
@@ -61,6 +63,7 @@
         </div>
         <button type="submit" class="btn-filter">Показать</button>
       </form>
+
       <div class="sorting">
         <b class="sorting-found">Найдено 3:</b>
         <span class="sorting-label">Сортировка:</span>
@@ -74,12 +77,13 @@
           <a href="#" class="sorting-icon icon-down"></a>
         </div>
       </div>
+
       <div class="filter-results">
-        <section class="hotel-item">
+        <section class="hotel-item clearfix">
           <div class="hotel-image">
             <img src="img/amara.jpg" width="135" height="90" alt="Amara Resort &amp; Spa">
           </div>
-          <div class="hotel-info">
+          <div class="hotel-info clearfix">
             <a href="#" class="hotel-title">Amara Resort &amp; Spa</a>
             <div class="hotel-info-part">
               <div class="hotel-info-text">Гостиница</div>
@@ -95,11 +99,11 @@
             <div class="hotel-rating-count">Рейтинг: 8,5</div>
           </div>
         </section>
-        <section class="hotel-item">
+        <section class="hotel-item clearfix">
           <div class="hotel-image">
             <img src="img/desert.jpg" width="135" height="90" alt="Desert Quail Inn">
           </div>
-          <div class="hotel-info">
+          <div class="hotel-info clearfix">
             <a href="#" class="hotel-title">Desert Quail Inn</a>
             <div class="hotel-info-part">
               <div class="hotel-info-text">Мотель</div>               
@@ -115,11 +119,11 @@
             <div class="hotel-rating-count">Рейтинг: 8,9</div>
           </div>
         </section>
-        <section class="hotel-item">
+        <section class="hotel-item clearfix">
           <div class="hotel-image">
             <img src="img/diablo.jpg" width="135" height="90" alt="Villas at Poco Diablo">
           </div>
-          <div class="hotel-info">
+          <div class="hotel-info clearfix">
             <a href="#" class="hotel-title">Villas at Poco Diablo</a>
             <div class="hotel-info-part">
               <div class="hotel-info-text">Апартаменты</div>
