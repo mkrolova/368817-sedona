@@ -1,12 +1,15 @@
 body {
+  margin: 0px;
+  padding: 0px;
   font-family: "PTSans", Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #000000;
   font-weight: normal;  
   text-transform: uppercase;
-  margin: 0px;
-  padding: 0px;
+  background-color: #f2f2f2;
+  min-width: 1200px;
+
 }
 
 .main-title {
@@ -23,52 +26,77 @@ body {
 }
 
 .container {
+  margin: 0 auto;
   width: 1200px;
+  background-color: #ffffff;
 }
-.main-nav {
+.main-nav ul {
+  padding: 0 6%;
   font-size: 0px;
 }
 
 .main-nav-item {
   font-size: 14px;
   line-height: 26px;
-  width: 250px;
+  width: 20%;
   display: inline-block;
   vertical-align: middle;
 }
 
+.main-nav-item:nth-child(1),
+.main-nav-item:nth-child(2) {
+  text-align: left;
+}
+
+.main-nav-item:nth-child(3),
+.main-nav-item:nth-child(4) {
+  text-align: right;
+}
+
+.main-nav-item:nth-child(2) {
+  margin-right:20%;
+} 
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 
 .clearfix::after {
-    display: table;
-    content: "";
-    clear: both;
+  display: table;
+  content: "";
+  clear: both;
 }
 
 .feautures-item {
   float: left;
-  width: 400px;
-  height: 330px;
+  width: 33.3334%;
+ 
+}
+
+.benefits {
+  background-color: #81b3d2;
+  overflow: hidden;
 }
 
 .benefits-text {
   float: left;
-  width: 400px;
-  height: 255px;
-  background-color: #81b3d2;
+  width: 33.3334%; 
   color: #ffffff;
+  
 }
 
 .benefits-image{
   float: left;
-  width: 800px;
-  height: 255px;
+  width: 66.6667%;
+  
 }
 
 .benefits-gray-bg .benefits-text{
   color: #000000;
-  float: left;
-  width: 400px;
-  height: 255px;
   background-color: #eeeeee;
 }
 
@@ -76,40 +104,73 @@ body {
   color: #000000;
 }
 
-
+.footer-inner {
+  padding: 0 6%;
+  font-size: 0px;
+}
 
 .index-footer {
-  height: 120px;
+  padding: 0 6%;
+  font-size: 0px;
 }
 
 .footer-hashtag {
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
-  width: 400px;
-  float: left;
+  width: 33.3334%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
 }
 
 .footer-social {
-  width: 400px;
-  float: left;
+  width: 33.3334%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.social-btn-twit {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.social-btn-fb {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.social-btn-yt {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .footer-copyright {
-  width: 400px;
-  float: left;
+  width: 33.3334%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: right;
 }
 
 
-/*.filter-group {
+.filter-group {
   float: left;
-  width: 300px;
+  width: 275px;
+}
+
+.filter-group label {
+  display: block;
 }
 
 .filter-cost {
-  float: left;
-  width: 600px;
-}*/
+  float: right;
+  width: 330px;
+}
 
 .sort-by {
   font-size: 0px;
@@ -120,22 +181,37 @@ li {
   line-height: 18px;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 30px;
+}
+
+.filter {
+  padding: 0 6%;
+}
+
+.sorting{
+  padding: 0 6%;
+}
+
+.filter-results{
+  padding: 0 6%; 
 }
 
 .hotel-item {
-  height: 153px;
+  
+}
+
+.hotel-title {
+  display: block;
 }
 
 .hotel-image {
   float: left;
   width: 135px;
-  padding-left: 75px;
+  padding: 0 6%
 }
 
 .hotel-info {
   float: left;
-  width: 360px;
+  width: 70%;
   padding-left: 30px;
 
 }
@@ -152,15 +228,13 @@ li {
 }
 
 .hotel-info-link {
-  width: 110px;
-  height: 27px;
+  display: block;
   background-color: #81b3d2;
   color:#ffffff;
 }
 
 .hotel-info-link .link-dark {
-  width: 173px;
-  height: 27px; 
+  display: block;
   background-color: #766357;
   color: #ffffff;
 }
